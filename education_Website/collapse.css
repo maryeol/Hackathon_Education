@@ -1,0 +1,80 @@
+        html { 
+           background: url(apps.jpg) no-repeat center center fixed; 
+         -webkit-background-size: cover;
+         -moz-background-size: cover;
+         -o-background-size: cover;
+          background-size: cover;
+}
+body > #bg{
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(90deg, rgba(46,119,174,1) 0%, rgba(13,33,55,1) 97%);
+    clip-path: polygon(30% 0%, 70% 0%, 100% 0, 100% 80%, 34% 100%, 0 100%, 0% 70%, 0 0);
+    position: absolute;
+    z-index: -1;
+
+}
+.navbar{
+    background: #0d2137;
+}
+        .accordion { 
+            
+            margin: 15px; 
+            width: 50%;
+            display:inline;
+            align-items: center;
+            justify-content: center;
+        
+        } 
+          
+        .accordion .cardheader .fa { 
+            margin-right: 0.2rem;
+        } 
+        .fa{
+        	margin: 15px;
+        }
+
+
+        #footer{
+            background-color: #fff;     
+            height: 40px;
+            
+        }
+        
+        .follow {
+            position: relative;
+            font-size: 15px;
+            margin-right: 10px;
+            padding: 0;
+            color: gray;
+            left : 5px; 
+            bottom : -13px;
+        }
+        
+        .social a{
+            font-size: 30px;
+            padding: 5px;
+        }
+        .fa-facebook{
+            color : #3b5998;
+        }
+        .fa-twitter {
+            color : #00aced;
+        }
+        .fa-instagram {
+            color : #517fa4;
+        }
+        .fa-youtube{
+            color : #bb0000;
+        }
+        
+        .fa-facebook:hover , .fa-instagram:hover ,
+         .fa-twitter:hover , .fa-youtube:hover{
+            color : #d5d5d5;
+        }      
+        .pfoot p {
+            font-size: 15px ;
+            color : black;
+            margin: 15px;
+        
+        }

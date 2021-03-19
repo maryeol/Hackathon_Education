@@ -1,0 +1,191 @@
+*{
+    margin: 0px ;
+    padding: 0px ;
+    box-sizing: border-box;
+}
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 0px;
+	height: 700px;
+}
+.navbar{
+  background-image: linear-gradient(to right, #003366 , #80bfff);
+}
+.first{
+	
+   background-image: linear-gradient(to right, #003366 , #80bfff);
+   height: 400px;
+   text-align: center;
+   padding: 70px ;
+   font-size: 25px;
+   color:white;
+}
+
+.searchform {
+    width: 100%;
+    margin: 0 auto;
+    height: 50px;
+    margin-top: 40px;
+}
+
+.rounded {
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 55px;
+}
+
+.second{
+  height: 550px;
+  background-color: #b3d9ff;
+}
+
+.services{
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    list-style: none;
+    padding: 15px;
+    position: relative;
+    top: -140px;
+    margin-left: 20%;
+    
+}
+.service{
+	border: ;
+	margin:32px;
+	width: 20%;
+	text-align: center;
+	height: 220px;
+	border-radius: 20px; 
+	background-color: white;
+	font-size: 20px;
+  
+    box-sizing: border-box;
+   transition:1s;
+
+    flex-direction: column;
+    justify-content: center;
+   
+}
+.service_title{
+	position: relative;
+	top: 120px; 
+}
+
+.explanation{
+	position: relative;
+	top: -200px;
+	margin : 70px;
+}
+
+hr{
+	width: 700px;
+	margin :25px;
+
+}
+p{
+	margin:10px; 
+}
+
+i{
+	position: relative;
+	top: 70px;
+	
+}
+
+a{
+	  text-decoration: none;
+	cursor: pointer;
+	color: black; 
+}
+
+.service:hover{
+	transform:scale(1.4);
+}
+
+#footer{
+  background-color: #fff;     
+  height: 40px;
+}
+
+.follow {
+  position: relative;
+font-size: 15px;
+margin-right: 10px;
+padding: 0;
+  color: gray;
+  left : 1px; 
+  bottom : -13px;
+}
+
+.social a{
+  font-size: 30px;
+  padding: 5px;
+}
+.fa-facebook{
+  color : #3b5998;
+}
+.fa-twitter {
+  color : #00aced;
+}
+.fa-instagram {
+  color : #517fa4;
+}
+.fa-youtube{
+  color : #bb0000;
+}
+
+.fa-facebook:hover , .fa-instagram:hover ,
+.fa-twitter:hover , .fa-youtube:hover{
+  color : #d5d5d5;
+}      
+.pfoot p {
+  font-size: 15px ;
+  color : black;
+  margin: 15px;
+
+}
+/*modal css*/
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto; /* 15% from the top and centered */
+  height:81% ;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+
